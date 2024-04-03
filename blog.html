@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta name="viewport" content="eith=device=width, initial-scale=1.0">
+    <title>Technology and Innovation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body  style="background-image: url('c:\Users\vikra\OneDrive\Desktop\Edfold\images\ai.jpg');" >
+<section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                <li><a href="index.html">HOME</a></li>
+                   <li><a href="about.html">ABOUT</a></li>
+                   <li><a href="course.html">COURSE</a></li>
+                   <li><a href="blog.html">BLOG</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+               </ul> 
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>  
+         </nav>
+             <h1 ><strong >Online Programs</strong> </h1>
+          </section>
+          
+
+          <!--------blog page content----->
+          <section class="blog-content">
+
+            <div class="row">
+                <div class="blog-left">
+                    <p><h4>-Introduction to Coding for Beginners:</h4>
+
+                        Description: This course provides a beginner-friendly introduction to coding concepts, covering languages such as Python, JavaScript, and Scratch. Participants will learn the fundamentals of programming through hands-on exercises and projects.
+                        Topics Covered: Basic syntax, variables, data types, conditionals, loops, functions, and problem-solving techniques.
+                        Duration: 4 weeks (or customizable based on participants' needs).
+                        Prerequisites: None, suitable for beginners with no prior coding experience.
+                       <h4>- Hackathon Bootcamp:</h4>
+                        
+                        Description: This intensive bootcamp prepares participants to participate in hackathons and tech innovation challenges. Through workshops, team-building activities, and project-based learning, participants will learn essential skills in ideation, prototyping, project management, and presentation.
+                        Topics Covered: Ideation techniques, rapid prototyping, collaboration tools, project management methodologies, pitching skills, and teamwork.
+                        Duration: 2 days to 1 week (intensive format).
+                        Prerequisites: Basic understanding of programming concepts and willingness to collaborate in a team setting.
+                        <h4>-STEM Entrepreneurship:</h4>
+                        
+                        Description: This course explores the intersection of STEM education and entrepreneurship, equipping participants with the knowledge and skills needed to launch tech startups. Through case studies, guest lectures, and hands-on projects, participants will learn about market research, business model canvas, product development, and pitching.
+                        Topics Covered: Market analysis, customer validation, lean startup methodology, product-market fit, fundraising, and scaling.
+                        Duration: 8 weeks (or customizable based on participants' needs).
+                        Prerequisites: Basic understanding of STEM concepts and interest in entrepreneurship.
+                        <h4>-Mobile App Development for Education:</h4>
+                        
+                        Description: This course focuses on developing mobile apps for school communication and organization. Participants will learn app development concepts and tools, including user interface design, database integration, push notifications, and cross-platform development.
+                        Topics Covered: Mobile app architecture, UI/UX design principles, backend development, API integration, testing, and deployment.
+                        Duration: 6 weeks (or customizable based on participants' proficiency level).
+                        Prerequisites: Basic programming knowledge (e.g., HTML, CSS, JavaScript) and familiarity with mobile devices and applications.
+                        <h4>-Digital Literacy for Seniors:</h4>
+                        
+                        Description: This course aims to improve digital literacy among seniors or underserved communities, covering essential skills such as using computers, navigating the internet, online safety, and communication tools.
+                        Topics Covered: Basic computer operations, internet browsing, email, online security, social media, and online banking.
+                        Duration: 4 weeks (or customizable based on participants' needs).
+                        Prerequisites: None, suitable for seniors with little to no prior experience with technology.</p>
+                    
+                    <div class="comment-box">
+                        <h3>Leave a comment</h3>
+                        <from class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="text" placeholder="Enter Name">
+                            <textarea rows="5" placeholder="Your Comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+
+                        </from>
+                    </div>
+                    
+                </div>
+                <div class="blog-right">
+                    <h3>Post Categories</h3>
+                    <div>
+                        <span>Coding Curriculum for Beginners</span>
+                        <span>1</span>
+                    </div>
+                    <div>
+                        <span>Hackathons and Tech Innovation Challenges</span>
+                        <span>2</span>
+                    </div>
+                    <div>
+                        <span>STEM-Based Entrepreneurship Program</span>
+                        <span>3</span>
+                    </div>
+                    <div>
+                        <span>Mobile App for School Communication and Organization</span>
+                        <span>4</span>
+                    </div>
+                    <div>
+                        <span>Digital Literacy Program for Seniors or Underserved Communities</span>
+                        <span>5</span>
+                    </div>
+
+
+                </div>
+            </div>  
+          </section>
+
+          
+
+
+        
+
+
+       <!----footer---->
+     <section class="footer">
+     <h4>About Us</h4>
+     <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p> <i class="fa fa-heart-o"></i> </p>
+</section>
+
+<!--------JavaScript for toggle menu------>
+ <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+ </script>     
+
+</body>
+</html>

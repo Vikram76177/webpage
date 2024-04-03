@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta name="viewport" content="eith=device=width, initial-scale=1.0">
+    <title>Technology and Innovation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                <li><a href="index.html">HOME</a></li>
+                   <li><a href="about.html">ABOUT</a></li>
+                   
+                   <li><a href="blog.html">BLOG</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+               </ul> 
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>  
+        </nav>
+
+  <div class="text-box">
+       <h1>Technology and Innovation</h1>
+       <p>"Technology and innovation: shaping tomorrow's world, today."
+       </p>
+       <h3>Technology</h3>
+       <p>
+        Technology and innovation are fundamental drivers of progress and development in modern society. They play pivotal roles in shaping economies, industries, and everyday life. Let's delve into the theoretical underpinnings of technology and innovation:
+       </p>
+       <p>Technology encompasses the application of scientific knowledge, tools, and techniques to solve problems, enhance processes, and create new products or services. Technology serves as a catalyst for progress by enabling advancements across various domains, including communication, healthcare, transportation, and manufacturing.  Technology can be categorized into several types, such as information technology (IT), biotechnology, nanotechnology, and renewable energy technology.</p>
+       <h3>Innovation</h3>
+       <p>Innovation refers to the process of introducing new ideas, methods, or products that lead to positive change and disrupt existing norms.  Innovation is propelled by factors such as technological advancements, changing consumer preferences, market demands, and societal needs. Innovation can take various forms, including product innovation (introducing new or improved products), process innovation (enhancing operational efficiencies), and business model innovation (redefining how value is created and delivered).</p>
+       <p>Technology encompasses the application of scientific knowledge, tools, and techniques to solve problems, enhance processes, and create new products or services. Technology serves as a catalyst for progress by enabling advancements across various domains, including communication, healthcare, transportation, and manufacturing. Technology can be categorized into several types, such as information technology (IT), biotechnology, nanotechnology, and renewable energy technology.</p>
+       <a href="" class="hero-btn">Visit Us To Know More</a>
+  </div>
+    </section>
+
+
+
+<!----Footer----->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>You can contact us in the contact page.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p><i class="fa fa-heart-o"></i> </p>
+</section>
+
+<!--------JavaScript for toggle menu------>
+ <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+ </script>     
+
+</body>
+</html>
